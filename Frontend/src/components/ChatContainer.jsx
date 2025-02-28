@@ -31,6 +31,9 @@ const ChatContainer=()=>{
           messageEndRef.current.scrollIntoView({ behavior: "smooth" });
         }
       }, [messages]);
+      useEffect(()=>{
+        console.log("Messages Received", messages)
+      },[messages])
     
       if (isMessagesLoading) {
         return (
