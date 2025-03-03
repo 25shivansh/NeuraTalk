@@ -45,7 +45,5 @@ npm run start
 
 
     
-## Demo
 
-Link :-https://neuratalk4u.onrender.com/login
 
